@@ -1,5 +1,5 @@
 <?php
-$target_dir = "\\10.1.1.4\\StoreData\\";
+$target_dir = "\\\\10.1.1.4\\StoreData\\";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
