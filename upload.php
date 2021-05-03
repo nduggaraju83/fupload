@@ -1,5 +1,5 @@
 <?php
-$target_dir = "file:////10.0.1.4//ImageDB";
+$target_dir = "file:\\vm1\ImageDB";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
